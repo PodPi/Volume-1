@@ -13,7 +13,7 @@ You can then control the brightness of an LED by using a PWM pin (pin3 3, 5, 6, 
 `lumina.js`: Sensing light is fun. This circuit and code is very similar to the last one. A light sensor works a bit like the potentiometer. When more light is sense, more current is let through the sensor. By coupling the sensor with a 100K resitors, you can now sense the voltage in between the two components using the Arduino on pin A0.
 In this lesson, we detect a certain light intensit (200 in the code) and turn on the LED or turn off the LED based on that value. When running the code, observe the values reported on the screen and change the 200 number in the code to match your environment.  Each environment will be different based on the ambient light sensed
 
-### Sensing temperatur with Celsius
+### Sensing temperature with Celsius
 `celsius.js`: Sensing temperature is very useful in many real life applications. Want to make sure if your fridge or freezer is not working properly? Use a temperature sensor to monitor them and have a trigger activates when the value reaches a certain threshold. Note that the temperature is sensed much slower than the light. The light sensor react quickly, whereas the temperature sensor needs time to adjust to the new temperature. Therefore, in our experiment, the LED brightness will change slowly too.  Experiment further by dividng the value received more aggressivly (use a larger divider).
 
 ### Sweeping with Servo
